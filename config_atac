@@ -1,0 +1,11 @@
+ {
+                                organism: "human"
+                                genome: ["GRCh38"]
+                                input_fasta: ["/data/chi/PROJECTS/24-418_Fraser
+_HIV_Reactivation/Bioinformatics/Runs/CCR/Genome/hg38/MERGED3/genome.fa"]
+                                input_gtf: ["/data/chi/PROJECTS/24-418_Fraser_H
+IV_Reactivation/Bioinformatics/Runs/CCR/Genome/hg38/MERGED3/genes.gtf"]
+                                non_nuclear_contigs: ["chrM"]
+                             #   input_motifs: "/data/chi/PROJECTS/24-418_Frase
+r_HIV_Reactivation/Bioinformatics/Runs/CCR/Genome/hg38/MERGED3/motifs.pfm"
+                            }

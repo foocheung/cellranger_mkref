@@ -9,3 +9,7 @@
 
 ## Run cellranger mkref
 - sbatch cellranger_mkref_job.sh
+
+
+## Run cellranger-atac mkref
+ /data/chi/PROJECTS/23-309_Tussiwand/Flowcell_222WKJLT1/RUN/cellranger-atac-2.1.0/bin/cellranger-atac mkref --config=/data/chi/PROJECTS/24-418_Fraser_HIV_Reactivation/Bioinformatics/Runs/CCR/Genome/hg38/MERGED3/config &

@@ -1,6 +1,4 @@
-Certainly! Here's the revised version formatted for GitHub Markdown:
 
-```markdown
 # Adding the HIV-1 Genome to the Human Genome Reference
 
 ## Downloading HIV Genome
@@ -52,6 +50,3 @@ Submit the job to create the reference using `cellranger-atac mkref`:
 ```sh
 sbatch cellranger_mkref_job.sh
 ```
-```
-
-This format should work well on GitHub, making your instructions clear and easy to follow.

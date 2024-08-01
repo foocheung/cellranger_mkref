@@ -5,8 +5,9 @@
 - wget -r ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/864/765/GCF_000864765.1_ViralProj15476/
 
 The GCF_000864765.1_ViralProj15476_genomic.gtf needs to be semi-manually modified as follows:
-To be considered for transcriptome alignment, genes must have annotations with feature type 'exon' in column 3 of the GTF file.
-Additionally, the GTF must have annotations with the feature type 'transcript' for each transcript feature."
+To be considered for transcriptome alignment, 
+- genes must have annotations with feature type 'exon' in column 3 of the GTF file.
+- annotations with the feature type 'transcript' for each transcript feature.
 https://www.10xgenomics.com/support/software/cell-ranger-arc/latest/analysis/inputs/mkref
 
 ## Merge HIV with Human Genome/GTF

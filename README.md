@@ -7,7 +7,7 @@
 The GCF_000864765.1_ViralProj15476_genomic.gtf needs to be semi-manually modified as follows:
 To be considered for transcriptome alignment, 
 - genes must have annotations with feature type 'exon' in column 3 of the GTF file.
-- annotations with the feature type 'transcript' for each transcript feature.
+- annotations with the feature type 'transcript' for each transcript feature.<br>
 https://www.10xgenomics.com/support/software/cell-ranger-arc/latest/analysis/inputs/mkref
 
 ## Merge HIV with Human Genome/GTF

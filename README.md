@@ -13,7 +13,8 @@ reference: https://www.10xgenomics.com/support/software/cell-ranger-arc/latest/a
 ## Merge HIV with Human Genome/GTF
 - cat hiv_reformat.gtf >> genes.gtf 
 - cat GCF_000864765.1_ViralProj15476_genomic.fna | perl -pi -e s'/NC_001802/NC001802.1/g' >> genome.fa <br>
-reference: "contigs cannot have underscore "contig names in the FASTA and GTF files cannot include underscores (_)"
+- "contigs cannot have underscore "contig names in the FASTA and GTF files cannot include underscores (_)" <br>
+reference: https://www.10xgenomics.com/support/software/cell-ranger-arc/latest/analysis/inputs/mkref
 
 ## Run cellranger mkref
 - sbatch cellranger_mkref_job.sh
